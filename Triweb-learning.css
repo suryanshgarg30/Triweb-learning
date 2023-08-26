@@ -1,0 +1,31 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-image: url(wp.jpg);
+    background-size:auto;
+    background-position: 0%;
+}
+div.main{
+    width:auto;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{
+    background-color: darkgray;
+    width: auto;
+    font-size: large;
+    border-radius: 10xp;
+    border: 0cap;
+}
+input#submit{
+    background-color:orange;
+    width: auto;
+    padding: 7px;
+    font-size: large;
+}
