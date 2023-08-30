@@ -1,9 +1,11 @@
-import yagmail
-user = "suryanshgarg.1130@gmail.com"
-appcode = "1234"
+# calcultor program
+# 1 menu
 
-to = "vaishnodevixkashmirtrip@gmail.com"
-subject = "my email subject"
-content = ["email body"]
-with yagmail.SMTP(user, appcode) as yag:
-    yag.send(to, subject, content)
+while 1:
+    print("enter 1 for addition")
+    print("enter 2 for substraction")
+    print("enter 3 for multiplication")
+    print("enter 4 for division")
+    print("enter 0 to exit")
+    userchoice = int(input("enter your choice:"))
+    if
