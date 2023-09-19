@@ -1,0 +1,76 @@
+/* for upper container*/
+.upper_div{
+    background-color: bisque;
+    height: 400px;
+    width: 500px;
+}
+.purple_div {
+    background-color:purple;
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+.blue_div {
+    background-color: blue;
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    
+}
+.red_div {
+    background-color: red;
+    float: left;
+    height: 50%;
+    width: 50%;
+}
+.brown_div {
+    background-color: brown;
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+}
+
+.color_block{
+    display: inline-block;
+    height: 25px;
+    width: 45%;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.lower_div{
+    background-color: black;
+    height: 200px;
+    width: 500px;
+    display: inline-block;
+}
+.color_block_container{
+    text-align: center;
+}
+.text_block{
+    display: inline-block;
+    height: 25px;
+    width: 45%;
+    margin: 10px;
+}
+.main_container{
+    display: grid;
+    place-items: center;
+    
+}
+
+.inp_btn{
+    display: grid;
+    place-items: center;
+    height: 55px;
+}
+
+#username{
+    height: 25px;
+    width: 200px;
+    color: black;
+}
+.My_user{
+    color: darkmagenta;
+    font-size: 2pc;
+}
