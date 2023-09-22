@@ -1,0 +1,9 @@
+-> inset 
+INSERT INTO teacher(mobile_number, teacher_name) VALUES('11111', 't1') 
+-> READ
+SELECT * FROM `teacher`;
+-> Update
+UPDATE teacher SET mobile_number = '2222222'
+
+-> 
+DELET From 'teacher' ;
