@@ -1,0 +1,14 @@
+----> Create table 
+CREATE TABLE `workshop`.`users` (`id` INT(11) NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL , `remark` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+----------> Insert 
+INSERT INTO `users`( `name`, `email`, `password`, `remark`) VALUES ('suryansh','suryansh@gmail.com','1234','Admin');
+
+-------------> Select
+SELECT * FROM `users`
+
+----> Update
+UPDATE `users` SET `password`='hello' WHERE `email` = 'suryansh@gmail.com'
+
+---------> Delete 
+DELETE FROM `users` WHERE email = 'suryansh@gmail.com'
