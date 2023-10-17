@@ -1,9 +1,26 @@
-const db = require('../util/datatbas');
-module.exports.insert = (userData) =>{
-    //console.log(userData)
-    let query = "INSERT INTO `users`( `name`, `email`, `password`, `remark`) VALUES (?,?,?,?)";
-    db.execute(query,[userData.name, userData.email,userData.password,userData.remark]);
-    //execute 
-    //result return
-    return true;
-}
+const Sequelize = require('sequelize');
+const sequelize = require('../util/database');
+
+const User = sequelize.define('User_database',{
+    id:{
+        type: Sequelize.INTEGER,
+        autoIncreament:true,
+        allowNull: false,
+        primaryKey : true
+    },
+    name:{
+        type:Sequelize.STRING,
+        allowNull:false
+    },
+    email:{
+        type:Sequelize.STRING,
+        allowNull:false
+    },
+    password: {
+        type:Sequelize.STRING,
+        allowNull:false
+    },
+    remark: Sequelize.STRING
+})
+
+module.exports  = User;
