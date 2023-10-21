@@ -1,0 +1,1 @@
+mongosh "mongodb+srv://myclass.midvswg.mongodb.net/myfirstdatabase"  --username mongoclass

@@ -1,0 +1,17 @@
+//Insert a single document
+db.myfirstcollection.insertOne({name: "Aditya" , mobile: 374856})
+
+//Insert multiple documents
+db.myfirstcollection.insertMany([{name: "Pooja", email:"abc@gmail.com"},{name:"Ankit", mobile:"98773", location:"India"}])
+
+//Retrieve documents from a collection
+db.myfirstcollection.find()
+
+//Retrieve a specific document based on a query.
+db.myfirstcollection.find({name:"Pooja"})
+
+//Update documents in a collection
+db.col.updateOne({name:"Ankit"},{$set:{location:"Nepal"}})
+
+//Remove documents from a collection
+db.col.deleteOne({name:"Aditya"}
